@@ -131,7 +131,7 @@ if (document.URL.substring(0, dsturl1.length) == dsturl1 ||
 					// 모두 실패한 경우
 					setTimeout(function() { 
 					location.href = "javascript:inqSchedule();";
-					}, 500);
+					}, 50);
 				}
 			} else {
 				// 결과폼이 없는 경우 (오류 화면 발생?)
